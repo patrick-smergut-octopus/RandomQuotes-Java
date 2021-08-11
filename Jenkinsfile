@@ -16,7 +16,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                sh 'mvn package'
+                sh 'mvn package -Pwar'
             }
         }
 
