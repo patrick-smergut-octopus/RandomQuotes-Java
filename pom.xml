@@ -79,7 +79,7 @@
         <profile>
             <id>jar</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
                 <packaging.type>jar</packaging.type>
@@ -87,9 +87,6 @@
         </profile>
         <profile>
             <id>war</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <properties>
                 <packaging.type>war</packaging.type>
             </properties>
